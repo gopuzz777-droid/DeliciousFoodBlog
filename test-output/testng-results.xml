@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-26T16:27:26 IST" name="Grouped Test Suite" finished-at="2025-07-26T16:27:26 IST" duration-ms="374">
+    <groups>
+      <group name="regression">
+        <method signature="TC_02TestLogin.testlogin()[pri:0, instance:testCases.TC_02TestLogin@a87f8ec]" name="testlogin" class="testCases.TC_02TestLogin"/>
+        <method signature="TC_03SearchFuntion.testsearch()[pri:0, instance:testCases.TC_03SearchFuntion@5443d039]" name="testsearch" class="testCases.TC_03SearchFuntion"/>
+        <method signature="TC_04FilterFunction.testFilter()[pri:0, instance:testCases.TC_04FilterFunction@63787180]" name="testFilter" class="testCases.TC_04FilterFunction"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC_01AccountRegistration.testAccountReg()[pri:0, instance:testCases.TC_01AccountRegistration@30af5b6b]" name="testAccountReg" class="testCases.TC_01AccountRegistration"/>
+        <method signature="TC_05SaveRecipe.testsave()[pri:0, instance:testCases.TC_05SaveRecipe@7d1cfb8b]" name="testsave" class="testCases.TC_05SaveRecipe"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-07-26T16:27:26 IST" name="ChromeTest" finished-at="2025-07-26T16:27:26 IST" duration-ms="374">
+      <class name="testCases.TC_05SaveRecipe">
+        <test-method signature="testsave()[pri:0, instance:testCases.TC_05SaveRecipe@7d1cfb8b]" started-at="2025-07-26T16:27:26 IST" name="testsave" finished-at="2025-07-26T16:27:26 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsave -->
+      </class> <!-- testCases.TC_05SaveRecipe -->
+      <class name="testCases.TC_01AccountRegistration">
+        <test-method signature="testAccountReg()[pri:0, instance:testCases.TC_01AccountRegistration@30af5b6b]" started-at="2025-07-26T16:27:26 IST" name="testAccountReg" finished-at="2025-07-26T16:27:26 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountReg -->
+      </class> <!-- testCases.TC_01AccountRegistration -->
+      <class name="testCases.TC_02TestLogin">
+        <test-method signature="testlogin()[pri:0, instance:testCases.TC_02TestLogin@a87f8ec]" started-at="2025-07-26T16:27:26 IST" name="testlogin" finished-at="2025-07-26T16:27:26 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+      </class> <!-- testCases.TC_02TestLogin -->
+      <class name="testCases.TC_03SearchFuntion">
+        <test-method signature="testsearch()[pri:0, instance:testCases.TC_03SearchFuntion@5443d039]" started-at="2025-07-26T16:27:26 IST" name="testsearch" finished-at="2025-07-26T16:27:26 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsearch -->
+      </class> <!-- testCases.TC_03SearchFuntion -->
+      <class name="testCases.TC_04FilterFunction">
+        <test-method signature="testFilter()[pri:0, instance:testCases.TC_04FilterFunction@63787180]" started-at="2025-07-26T16:27:26 IST" name="testFilter" finished-at="2025-07-26T16:27:26 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFilter -->
+      </class> <!-- testCases.TC_04FilterFunction -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Grouped Test Suite -->
+</testng-results>
